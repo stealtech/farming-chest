@@ -1,0 +1,7 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "yaml.schemas": {
+        "https://www.schemastore.org/pocketmine-plugin.json": "file:///home/steal/Code/Minecraft%20Plugins/farming-chest/src/resources/plugin.yml"
+    }
+}

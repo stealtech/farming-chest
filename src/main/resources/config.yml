@@ -1,0 +1,108 @@
+# Farming Chest Configuration
+
+# Prices for selling crops per item.
+# Set the block material name and the price you want to sell it for.
+sell-prices:
+  WHEAT: 0.5
+  CARROTS: 0.75
+  POTATOES: 0.75
+  BEETROOTS: 0.4
+  NETHER_WART: 1.0
+  SUGAR_CANE: 0.6
+  PUMPKIN: 2.0
+  MELON: 0.2
+
+# GUI Titles
+gui-titles:
+  main-menu: "&2Farming Chest"
+  selection-menu: "&2Farmable Selection"
+
+# Default selected crop for new chests
+default-crop: WHEAT
+
+# Sell bonus configuration
+sell-bonus:
+  base-percent: 0.05
+  base-cost: 1000.0
+  max-level: 10
+  level-cost-multipliers:
+    1: 1.0
+    2: 1.2
+    3: 1.5
+    4: 1.8
+    5: 2.2
+    6: 2.7
+    7: 3.3
+    8: 4.0
+    9: 5.0
+    10: 6.5
+    default: 7.5
+
+# Crops that can be selected in the GUI.
+# Add any farmable crop here to make it available. The key must be the block material.
+# You can customize the display name and lore for each item.
+farmable-crops:
+  WHEAT:
+    display-name: "&eWheat"
+    lore:
+      - "&8Required to grow: Wheat"
+      - ""
+      - "&aClick here to select this"
+      - "&afarmable for this chest"
+      - "&c(Clears chest contents)"
+  CARROTS:
+    display-name: "&6Carrots"
+    lore:
+      - "&8Required to grow: Carrots"
+      - ""
+      - "&aClick here to select this"
+      - "&afarmable for this chest"
+      - "&c(Clears chest contents)"
+  POTATOES:
+    display-name: "&ePotatoes"
+    lore:
+      - "&8Required to grow: Potatoes"
+      - ""
+      - "&aClick here to select this"
+      - "&afarmable for this chest"
+      - "&c(Clears chest contents)"
+  BEETROOTS:
+    display-name: "&cBeetroots"
+    lore:
+      - "&8Required to grow: Beetroots"
+      - ""
+      - "&aClick here to select this"
+      - "&afarmable for this chest"
+      - "&c(Clears chest contents)"
+  SUGAR_CANE:
+    display-name: "&aSugar Cane"
+    lore:
+      - "&8Required to grow: Sugar Cane"
+      - ""
+      - "&aClick here to select this"
+      - "&afarmable for this chest"
+      - "&c(Clears chest contents)"
+  PUMPKIN:
+    display-name: "&6Pumpkin"
+    lore:
+      - "&8Required to grow: Pumpkin"
+      - ""
+      - "&aClick here to select this"
+      - "&afarmable for this chest"
+      - "&c(Clears chest contents)"
+  MELON:
+    display-name: "&aMelon"
+    lore:
+      - "&8Required to grow: Melon"
+      - ""
+      - "&aClick here to select this"
+      - "&afarmable for this chest"
+      - "&c(Clears chest contents)"
+  NETHER_WART:
+    display-name: "&cNether Wart"
+    lore:
+      - "&8Required to grow: Nether Wart"
+      - ""
+      - "&aClick here to select this"
+      - "&afarmable for this chest"
+      - "&c(Clears chest contents)"
